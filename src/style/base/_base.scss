@@ -6,3 +6,33 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+
+.grid-container {
+  display: inline-grid;
+
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 50px;
+  grid-row-gap: 80px;
+  grid-template-columns: 125px 125px 125px 125px 125px 125px 125px;
+  grid-template-rows: 125px 125px;
+}
+
+.grid-item img {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 10px;
+  height: 125px;
+  width: 125px;
+}
+
+.about-me {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.about-container {
+  padding-top: 80px;
+}
