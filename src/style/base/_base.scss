@@ -40,3 +40,22 @@ body {
 .skillset {
   padding: 4rem 0;
 }
+
+.more {
+  font-size: 2rem;
+  color: $secondary-color;
+  transition: all .2s ease;
+
+  a{
+    font-weight: 900;
+    font-size: 3rem;
+    color: $primary-color;
+    animation: pulse 2s infinite;
+  }
+}
+
+@keyframes pulse {
+  0% {color:$primary-color;}
+  50% {color:$secondary-color;}
+  100%{color:$primary-color;}
+}
